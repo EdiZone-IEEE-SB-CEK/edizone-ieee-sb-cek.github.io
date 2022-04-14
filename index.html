@@ -33,13 +33,22 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+ 
+
   </head>
   <body>
+
   <div class="main-section">
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><img src="images/logomain.png" height="40px"></a>
-	      <button class="navbar-toggler" type="button" style="color: whitesmoke;" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	      <a class="navbar-brand" href="index.html"><img src="images/logomain.png" height="100px">
+		
+		
+		
+		
+		</a>
+	      <button class="navbar-toggler" type="button" style="color: black;" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span>Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -54,22 +63,70 @@
 		  </div>
 	  </nav>
     <!-- END nav -->
-  	<section class="hero-wrap js-fullheight" style="background-image: url(images/POSTER.png);" data-stellar-background-ratio="0.5">
-  		<!--div class="container">
+  	<section class="hero-wrap js-fullheight" style="background-image: url(images/background1.png);" data-stellar-background-ratio="0.5">
+	
+  		<div class="container">
+			
   			<div class="row description js-fullheight align-items-center justify-content-center os-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-  				<div class="col-md-12">
+				  
+  				<div class="col-md-12" style="margin-top: 100px;">
   					<div class="typewriter">
-  						<h2 class="mb-4" style="text-align: right;"><span style="color: whitesmoke; font-weight: 600; font-size: 35px;">IEEE Industry Applications Society</span></h2>
+  						<h2 class="mb-4" style="text-align: right;"><span style="color: whitesmoke; font-weight: 600; font-size: 35px;">IEEE Virtual PES Day Fest EdiZone 2022</span></h2>
 					</div>
 					<div class="text os-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="padding-top: 45px;">
-  						<h4 class="mb-5 mt-2" style="text-align: right;">Student Branch Chapter<br> College of Engineering Karunagappally</h4>
+  						<h4 class="mb-5 mt-2" style="text-align: right;">PES SBC, College of Engineering Karunagappally</h4>
   					</div>
+					<div style="margin-top: 150px;">
+						<div style="text-align:center;font-size: 30px;">
+							Registration Closes by
+						</div> 
+						<p id="demo" style="text-align: center;font-size: 50px;color:#90EE90">
+
+						</p>
+						<script>
+							// Set the date we're counting down to
+							var countDownDate = new Date("Apr 21, 2022 12:59:00").getTime();
+							
+							// Update the count down every 1 second
+							var x = setInterval(function() {
+							
+							  // Get today's date and time
+							  var now = new Date().getTime();
+								
+							  // Find the distance between now and the count down date
+							  var distance = countDownDate - now;
+								
+							  // Time calculations for days, hours, minutes and seconds
+							  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+								
+							  // Output the result in an element with id="demo"
+							  document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+							  + minutes + "m " + seconds + "s ";
+								
+							  // If the count down is over, write some text 
+							  if (distance < 0) {
+								clearInterval(x);
+								document.getElementById("demo").innerHTML = "EXPIRED";
+							  }
+							}, 1000);
+						</script>	 
+		
+					</div>  
   				</div>
-  			</div>
-		</div-->
-  		</div>
+  			</div>	  
+		</div>
   		
   	</section>
+
+
+
+	
+
+
+
 
   <section class="ftco-section ftco-section-2 bg-light" id="about">
 	<div class="container" id="navigationTabs">
@@ -84,16 +141,16 @@
 					</ul-->
 					<div class="tab-content rounded mt-md-4">
 					  <div class="tab-pane container p-4 active os-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="text-align: justify;" id="home">
-						    <p>Edizone 2021 is a virtual technical fest organized by IEEE Student 
+						    <p>Edizone 2022 is a virtual technical fest organized by IEEE Student 
 							  Branch College of Engineering Karunagappally (IEEE SB CEK) and 
 							  Power & Energy Society Student Branch Chapter (PES SBC CEK) in 
-							  association with the 2021 PES Day Celebrations. We aim to inspire, 
+							  association with the 2022 PES Day Celebrations. We aim to inspire, 
 							  educate and empower students, offering online sessions and contests 
 							  related to the theme “Clean Energy Revolution”, with a chance to win 
-							  exciting prizes. Edizone 2021 will be held from 23rd to 27th of April 
-							  2021.<br><br>Students can now visit the Events tab to register for the sessions 
+							  exciting prizes. Edizone 2022 will be held from 22nd to 30th of April 
+							  2022.<br><br>Students can now visit the Events tab to register for the sessions 
 							  and competitions.<br><br>Detailed guidelines for the competitions will be published 
-							  on 23rd April 2021.
+							  on 20th April 2022.
 							</p>
 					  </div>
 					</div>
@@ -267,37 +324,6 @@
 	</div>
 </section>
 <!-- #002180 -->
-<div style="padding: 40px;padding-top: 40px;background-color:rgb(21, 8, 24);margin-top: 0px;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 aos-init aos-animate iprecon" data-aos="fade-up" data-aos-delay="200" style="padding: 0px;padding-top: 60px;">
-				<img src="images/iprecon21.png" style="width: 100%;padding: 10px;margin-bottom: 39px;">
-			</div>
-			<div class="col-md-6 aos-init aos-animate" data-aos="fade-up">
-				<h1 class="text-center" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);margin-top: 0px;font-size: 32px;">About</h1>
-				<p class="text-justify" style="font-family: Montserrat, sans-serif;color: rgb(255,255,255);font-size: 13px;padding: 0px;padding-top: 0px;margin-top: 33px;">
-					2021 IEEE International Power and Renewable Energy Conference (IPRECON) is
-					the 2nd edition of India's first Club of 6 Technical Paper Conference organized 
-					by IEEE Student Branch College of Engineering Karunagappally (IEEE SB CEK), 
-					technically sponsored by IEEE IAS, IEEE PES and IEEE PELS. IPRECON provides a 
-					platform for students and professionals from all around the world to share their 
-					findings in the fields of Power, Renewable Energy and Computing Technologies. With 
-					the theme “Engineering the sustainable world with Renewable Energy Resources through 
-					ingenious computing technologies”, the conference will be held on the 24th, 25th and 
-					26th of September 2021 in College of Engineering Karunagappally, Kerala, India.<br><br>The 
-					conference proceeding will be submitted to the IEEE Xplore® Digital Library.<br>
-					20% of the presented conference papers will be eligible for further review and 
-					possible publication in IEEE IAS Periodicals.</p>
-			</div>
-				<div class="col-md-12"  style="padding-top: 20px;">
-					<div class="card-body text-center pb-">
-						<a href="http://iprecon2021.org/" class="btn btn-light">More Info</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> 
 <section class="ftco-section" id="contact">
 	<div class="container" id="images">
 		<div class="row">
@@ -305,7 +331,7 @@
 				<h2 class="heading-section mb-4 text-center">Contact us</h2>
 				<div class="row">
 					<div class="col-md-6 text-center;">
-						<img src="images/map.jpeg" style="width: 100%;padding: 10px;margin-bottom: 39px;">
+						<img src="images/edizoneposter.png" style="width: 100%;padding: 10px;margin-bottom: 39px;">
 					</div>
 					<div class="col-md-6 text-center">
 						<h2 class="heading-section mb-4">
@@ -323,7 +349,8 @@
 									<b>Email:</b> ieeesbcek2000@gmail.com
 									<br>
 									<br>
-									<b>Riya Elizabeth:</b> +91 94969 91107<br><b>Hari krishnan:</b> +91 98471 39103
+									<b>Akhil:</b> +91 9650908793
+									<b>Gowri:</b> +91 9188108529
 
 								</p>
 							</div>
