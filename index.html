@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home | SPAS</title>
+    <title>Home | EdiZone</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" type="image/icon" href="./images/Asset 5.png">
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     
@@ -33,13 +33,22 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+ 
+
   </head>
   <body>
+
   <div class="main-section">
 		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-			<a class="navbar-brand" href="index.html"><img src="images/Asset 7.png" height="40px"></a>
-	      <button class="navbar-toggler" type="button" style="color: whitesmoke;" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	      <a class="navbar-brand" href="index.html"><img src="images/logomain.png" height="100px">
+		
+		
+		
+		
+		</a>
+	      <button class="navbar-toggler" type="button" style="color: black;" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span>Menu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -54,23 +63,70 @@
 		  </div>
 	  </nav>
     <!-- END nav -->
-  	<section class="hero-wrap js-fullheight" style="background-image: url(images/d.jpg);" data-stellar-background-ratio="0.5">
+  	<section class="hero-wrap js-fullheight" style="background-image: url(images/background1.png);" data-stellar-background-ratio="0.5">
+	
   		<div class="container">
+			
   			<div class="row description js-fullheight align-items-center justify-content-center os-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-  				<div class="col-md-12 text os-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-  						<h2 class="mb-4" style="text-align: right;"><span style="color: whitesmoke; font-weight: 600; font-size: 35px;">Student Professional Awareness Summit</span></h2>
-  						<h4 class="mb-5 mt-2" style="text-align: right; font-weight: 3em;">26th, 27th, & 28th November 2021</h4>
-					<div style="text-align: right;">
-						<a href="index.html" class="btn btn-success" style="color: white; background-color: purple; border-color: white; border-radius: 0px;">Register Now</a>
+				  
+  				<div class="col-md-12" style="margin-top: 100px;">
+  					<div class="typewriter">
+  						<h2 class="mb-4" style="text-align: right;"><span style="color: whitesmoke; font-weight: 600; font-size: 35px;">IEEE Virtual PES Day Fest EdiZone 2022</span></h2>
 					</div>
-						
-  				</div>
+					<div class="text os-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="padding-top: 45px;">
+  						<h4 class="mb-5 mt-2" style="text-align: right;">PES SBC, College of Engineering Karunagappally</h4>
+  					</div>
+					<div style="margin-top: 150px;">
+						<div style="text-align:center;font-size: 30px;">
+							Registration Closes by
+						</div> 
+						<p id="demo" style="text-align: center;font-size: 50px;color:#90EE90">
 
-  			</div>
+						</p>
+						<script>
+							// Set the date we're counting down to
+							var countDownDate = new Date("Apr 21, 2022 12:59:00").getTime();
+							
+							// Update the count down every 1 second
+							var x = setInterval(function() {
+							
+							  // Get today's date and time
+							  var now = new Date().getTime();
+								
+							  // Find the distance between now and the count down date
+							  var distance = countDownDate - now;
+								
+							  // Time calculations for days, hours, minutes and seconds
+							  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+								
+							  // Output the result in an element with id="demo"
+							  document.getElementById("demo").innerHTML = days + "D " + hours + "H "
+							  + minutes + "m " + seconds + "s ";
+								
+							  // If the count down is over, write some text 
+							  if (distance < 0) {
+								clearInterval(x);
+								document.getElementById("demo").innerHTML = "EXPIRED";
+							  }
+							}, 1000);
+						</script>	 
+		
+					</div>  
+  				</div>
+  			</div>	  
 		</div>
-  		</div>
   		
   	</section>
+
+
+
+	
+
+
+
 
   <section class="ftco-section ftco-section-2 bg-light" id="about">
 	<div class="container" id="navigationTabs">
@@ -85,15 +141,16 @@
 					</ul-->
 					<div class="tab-content rounded mt-md-4">
 					  <div class="tab-pane container p-4 active os-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="text-align: justify;" id="home">
-						    <p>Student Professional Awareness Summit 2021 (SPAS) is a virtual global event organised by IEEE Student Branch College of 
-								Engineering Karunagappally in association with  Signal Processing Society and Power and Energy Society	. This event aims to inspire,  educate, and empower students by 
-								conducting online workshops and session related to signal processing.
-								<br><br>
-								SPAS 2021 will be held from 26th to 28th November 2021 
-								<br><br>
-								Students can now visit the Events tab to know more about the sessions and workshops.
-								<br><br>
-								Detailed guidelines of the event will be published on 25th November 2021.
+						    <p>Edizone 2022 is a virtual technical fest organized by IEEE Student 
+							  Branch College of Engineering Karunagappally (IEEE SB CEK) and 
+							  Power & Energy Society Student Branch Chapter (PES SBC CEK) in 
+							  association with the 2022 PES Day Celebrations. We aim to inspire, 
+							  educate and empower students, offering online sessions and contests 
+							  related to the theme “Clean Energy Revolution”, with a chance to win 
+							  exciting prizes. Edizone 2022 will be held from 22nd to 30th of April 
+							  2022.<br><br>Students can now visit the Events tab to register for the sessions 
+							  and competitions.<br><br>Detailed guidelines for the competitions will be published 
+							  on 20th April 2022.
 							</p>
 					  </div>
 					</div>
@@ -120,15 +177,27 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-2" style="margin: 4px 0;">
+				<!--div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+				  <div class="card-body pb-5">
+					<h6 class="card-text" style="color: #000000;">
+						PES Distinguished Lecture
+					</h6>
+					<br>
+					<hr>
+						<a href="./E3.html" class="btn btn-success">Pre-Register</a>
+				  </div>
+				</div-->
+			</div>
 			<div class="col-md-4" style="margin: 4px 0;">
 				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 				  <div class="card-body text-center pb-5">
 					<h6 class="card-text" style="color: #000000;">
-						Inauguration - SPAS
+						EdiZone - Inauguration
 					</h6>
-					<br><br>
+					<br>
 					<hr>
-					<a href="index.html" class="btn btn-info" style="background-color: purple;">Join Now!</a>
+					<a href="./E1.html" class="btn btn-success">Register Now</a>
 				  </div>
 				</div>
 			</div>
@@ -136,27 +205,72 @@
 				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">					
 				  <div class="card-body pb-5">
 					<h6 class="card-text" style="color: #000000;">
-						Breaking the Stigma Around Mental Health
+						Panel Discussion - "Developments & Chalenges in Renewable Energy Generation"
+					</h6>
+					<hr>
+					<a href="./E2.html" class="btn btn-success">Pre-Register</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2" style="margin: 4px 0;">
+				<!--div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+				  <div class="card-body pb-5">
+					<h6 class="card-text" style="color: #000000;">
+						PES Distinguished Lecture
 					</h6>
 					<br>
 					<hr>
-					<a href="./breakingthestigma.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
-					</div>
+						<a href="./E3.html" class="btn btn-success">Pre-Register</a>
+				  </div>
+				</div-->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" style="margin-bottom: 30px;">
+				<h1 style="font-size: 18px;color: rgb(112,112,112);height: 12px;margin-top: 40px;margin-bottom: 5px;padding-top: 0px;">
+					Contests
+				</h1>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom: 25px;">
+			<div class="col-md-4" style="margin: 4px 0;">
+				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+				  <div class="card-body text-center pb-5">
+					<h6 class="card-text" style="color: #000000;">
+						Circuit Designing Competition
+					</h6>
+					<br>
+					<hr>
+					<a href="./E4.html" class="btn btn-success">Pre-Register</a>
+				  </div>
 				</div>
 			</div>
 			<div class="col-md-4" style="margin: 4px 0;">
 				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">					
 				  <div class="card-body pb-5">
 					<h6 class="card-text" style="color: #000000;">
-						Demystifying DSP
+						Animation Contest
 					</h6>
-					<br><br>
+					<br>
 					<hr>
-					<a href="./DSP.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
+					<a href="./E5.html" class="btn btn-success">Pre-Register</a>
 					</div>
 				</div>
 			</div>
-			
+
+			<div class="col-md-4" style="margin: 4px 0;">
+				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+				  <div class="card-body pb-5">
+					<h6 class="card-text" style="color: #000000;">
+						Technical Writing Contest
+					</h6>
+					<br>
+					<hr>
+						<a href="./E6.html" class="btn btn-success">Pre-Register</a>
+				  </div>
+				</div>
+			</div>
 		</div>
 		<div class="row" style="margin-top: 25px;">
 			<div class="col-md-2" style="margin: 4px 0;">
@@ -172,30 +286,30 @@
 				</div-->
 			</div>
 			<div class="col-md-4" style="margin: 4px 0;">
-				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">					
 				  <div class="card-body pb-5">
-					<h6 class="card-text" style="color: #000000; padding-bottom: 1.2em;">
-						Introduction to 5G
+					<h6 class="card-text" style="color: #000000;">
+						Humanitarian Project Idea Contest
 					</h6>
 					<hr>
-					<a href="./5G.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
-				  </div>
+					<a href="./E7.html" class="btn btn-success">Pre-Register</a>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4" style="margin: 4px 0;">
-				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-				  <div class="card-body text-center pb-5">
+				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">					
+				  <div class="card-body pb-5">
 					<h6 class="card-text" style="color: #000000;">
-						Introduction to Machine Learning
+						IEEE PES Day Quiz 2021
 					</h6>
 					<hr>
-					<a href="./machinelearning.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
-				  </div>
+					<a href="./E8.html" class="btn btn-success">Pre-Register</a>
+					</div>
 				</div>
 			</div>
-           <!--div class="col-md-2" style="margin: 4px 0;">
-				
-				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+			<div class="col-md-2" style="margin: 4px 0;">
+				<!--div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 				  <div class="card-body pb-5">
 					<h6 class="card-text" style="color: #000000;">
 						PES Distinguished Lecture
@@ -204,93 +318,8 @@
 					<hr>
 						<a href="./notification3.html" class="btn btn-success">Pre-Register</a>
 				  </div>
-				</div>
-			</div-->
-		</div>
-		<div class="row" style="margin-top: 25px;">
-			<div class="col-md-2" style="margin: 4px 0;"></div>
-			<div class="col-md-2" style="margin: 4px 0;"></div>
-		    <div class="col-md-4" style="margin: 4px 0;display: flex;justify-content: center;">
-				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">					
-				  <div class="card-body pb-5">
-					<h6 class="card-text" style="color: #000000;">
-						Overcoming Challenges as Women Leaders in Tech Field
-					</h6>
-					<hr>
-					<a href="./women.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-12" style="margin-bottom: 30px;">
-				<h1 style="font-size: 18px;color: rgb(112,112,112);height: 12px;margin-top: 40px;margin-bottom: 5px;padding-top: 0px;">
-					Workshops
-				</h1>
-			</div>
-		</div>
-		<div class="row" style="margin-bottom: 25px;">
-
-				<div class="col-md-4" style="margin: 4px 0;">
-					<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-					  <div class="card-body text-center pb-5">
-						<h6 class="card-text" style="color: #000000;">
-							Workshop on Machine Learning and AI
-						</h6>
-						<hr>
-						<a href="./machinelearning AI.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
-					  </div>
-					</div>
-				</div>
-				<!--div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-				  <div class="card-body pb-5">
-					<h6 class="card-text" style="color: #000000;">
-						PES Distinguished Lecture
-					</h6>
-					<br>
-					<hr>
-						<a href="./E3.html" class="btn btn-success">Pre-Register</a>
-				  </div>
 				</div-->
-			
-
-			<div class="col-md-4" style="margin: 4px 0;">
-				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-				  <div class="card-body text-center pb-5">
-					<h6 class="card-text" style="color: #000000;">
-						Hands on Workshop on MATLAB
-					</h6>
-					<hr>
-					<a href="./matlab.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
-				  </div>
-				</div>
 			</div>
-			<div class="col-md-4" style="margin: 4px 0;">
-				<div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-				  <div class="card-body text-center pb-5">
-					<h6 class="card-text" style="color: #000000;">
-						Light Designing Using Dialux
-					</h6>
-					<hr>
-					<a href="./dialux.html" class="btn btn-info" style="background-color: purple;">Know More!</a>
-				  </div>
-				</div>
-			</div>
-			
-
-			<!--div class="col-md-4" style="margin: 4px 0;">
-				<!--div class="card text-center os-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-				  <div class="card-body pb-5">
-					<h6 class="card-text" style="color: #000000;">
-						PES Distinguished Lecture
-					</h6>
-					<br>
-					<hr>
-						<a href="./E3.html" class="btn btn-success">Pre-Register</a>
-				  </div>
-				</div-->
-			</div-->
 		</div>
 	</div>
 </section>
@@ -302,7 +331,7 @@
 				<h2 class="heading-section mb-4 text-center">Contact us</h2>
 				<div class="row">
 					<div class="col-md-6 text-center;">
-						<img src="images/wip.png" style="width: 100%;padding: 10px;margin-bottom: 39px;">
+						<img src="images/edizoneposter.png" style="width: 100%;padding: 10px;margin-bottom: 39px;">
 					</div>
 					<div class="col-md-6 text-center">
 						<h2 class="heading-section mb-4">
@@ -320,7 +349,8 @@
 									<b>Email:</b> ieeesbcek2000@gmail.com
 									<br>
 									<br>
-									<b>Jemi Jose:</b> +91 96444 48726<br><b>Deepa Pillai:</b> +91 94963 80814
+									<b>Akhil:</b> +91 9650908793
+									<b>Gowri:</b> +91 9188108529
 
 								</p>
 							</div>
