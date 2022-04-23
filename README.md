@@ -3,4 +3,4 @@ Edizone 2022 is a virtual technical fest organized by IEEE Student Branch Colleg
 
 Students can now visit the Events tab to register for the sessions and competitions.
 
-Detailed guidelines for the competitions will be published on 20th April 2022.
+
